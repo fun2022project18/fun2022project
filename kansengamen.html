@@ -1,0 +1,86 @@
+<html lang ja>
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href=gizitaiken.css>
+    
+        <title>あなたはランサムウェアに感染しました！！</title>
+    
+    </head>
+
+
+
+    <body>
+        <div class="back">
+            <div class="owatango">
+                <s1>  
+                <p>あなたはランサムウェアに感染しました！！</p>
+                </s1>
+
+                <s2>
+                    <h1>残念ながらお使いのPCはランサムウェアに感染してしまいました。</h1>
+
+                    <p></p>
+                    <p>解除するためには時間内に、下記のbitcoinに振り込んでください。</p>
+                    <div id="countdownArea" class="countdown">
+                        <span id="countdown-day"></span>日
+                        <span id="countdown-hour"></span>時間
+                        <span id="countdown-min"></span>分
+                        <span id="countdown-sec"></span>秒
+                    </div>
+                    <p>1Biturlfakedesufurikomanaidene</p>
+
+                </s2>
+
+                <s3>
+                    <p>一体何が感染原因だったのでしょうか？</p>
+                    <p>次のページで確かめてみましょう！！</p>
+                    <button id="button1" type="button" name="button1">次のページへ進む
+                    </button>
+                </s3>
+
+            </div>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("button1").onclick = function() {
+                //説明画面に遷移
+                location.href = "https://ganshishi.github.io/FUN2021_project19_security_top/"
+
+            };
+        </script>
+
+
+
+        <script type="text/javascript">
+            const target = 172500000 //ターゲット日時を取得二日
+            var remainTime=172500000 
+            let countdown = setInterval(function(){
+
+            
+            //指定の日時を過ぎていたら処理をしない
+            if(remainTime < 0) return false 
+
+            //差分の日・時・分・秒を取得
+            const difDay  = Math.floor(remainTime / 1000 / 60 / 60 / 24)
+            const difHour = Math.floor(remainTime / 1000 / 60 / 60 ) % 24
+            const difMin  = Math.floor(remainTime / 1000 / 60) % 60
+            const difSec  = Math.floor(remainTime / 1000) % 60
+
+            //残りの日時を上書き
+            document.getElementById("countdown-day").textContent  = difDay
+            document.getElementById("countdown-hour").textContent = difHour
+            document.getElementById("countdown-min").textContent  = difMin
+            document.getElementById("countdown-sec").textContent  = difSec
+            
+            remainTime=remainTime-1000        
+            //指定の日時になればカウントを止める
+            if(remainTime < 0) clearInterval(countdown)
+
+            }, 1000)    //1秒間に1度処理
+        </script>
+
+    </body>
+</html>
