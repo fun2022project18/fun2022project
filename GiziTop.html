@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>暗号とセキュリティ_ウイルス感染とその対策</title>
+    
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="Top.js"></script>
+    <link rel="stylesheet" href="Finish.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+
+  
+   <header>
+      <div class="header-logo">暗号とセキュリティ 疑似体験ページ</div>
+      <div id="hamburger">
+        <p class="btn-gNav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </p>
+        <nav id="gNav" class="">
+          <ul class="gNav-menu">
+            <li><a class="active" href="#Top">Top</a></li>
+            <li><a href="#one">ランサムウェアとは</a></li>
+            <li><a href="#two">疑似体験の説明</a></li>
+            <li><a class="active2" href="#about">クイズページへ</a></li>
+          </ul>
+        </nav>
+      </div>
+   </header>
+
+   <body>
+    <div class="one">
+      <h1 id="one">1.ランサムウェアとは</h1>
+      <span class="heading-1">1.1 ランサムウェアとは</span><br><br>
+      ランサムウェアとは、「Ransom（身代金）」と「Software（ソフトウェア）」を組み合わせた造語です。
+      感染したパソコンに特定の制限をかけ、その制限の解除と引き換えに金銭を要求する挙動から、このような
+      不正プログラムをランサムウェアと呼んでいます。
+      </span><br><br>
+      <img src="rannsom1.png">
+      <span class="heading-1">1.2 手口・感染経路</span><br><br>
+      
+      <h3>メールから感染させる</h3> 
+      
+      メールの添付ファイルやメール本文中のリンクを開かせることで、ランサムウェアに感染させる。また、近年は標的型攻撃メールといわれる受信者が思わずクリックしたくなる文章のメールから感染させる場合もある。
+<br><br>
+
+      <h3>ウェブサイトから感染させる</h3> 
+      脆弱性等を悪用しランサムウェアをダウンロードさせるよう改ざんしたウェブサイトや攻撃者が用意した正規サイトのURLを一部改変した偽のウェブサイトを閲覧させることで感染させる。
+      <br><br>
+
+      <h3>ネットワーク経由で感染させる</h3> 
+      アップデートをせずに古いバージョンのソフトウェアのままインターネットに接続されている機器に対して、
+      その脆弱性を悪用してインターネット経由で感染させる。<br><br>
+      引用　<a href="https://www.mobi-connect.net/blog/what-is-ransomware/">ランサムウェアとは？感染経路や事例、種類、最新の対策方法を解説</a>
+    
+      </span>
+    </div>
+ 
+  
+    <div class="two">
+      <h1 id="two">2.疑似体験の説明 </h1>
+      <span class="heading-1">2.疑似体験の説明 </span><br><br>
+      本サイトではWebサイトからランサムウェア感染を疑似的に体験することが出来ます。
+      個人のパソコン内にあるファイルを暗号化する。また、データを取得するということはありません。
+      安心して体験してください。
+      </span><br><br>
+    </div>
+  
+  
+  
+
+  
+    <script>
+      $('.active').click(function() {
+        location.href = "https://funproject19web1.github.io/test/"
+        alert("mainへ");
+      });
+    </script>
+  
+    <script>
+      $('.active2').click(function() {
+        location.href = "https://ganshishi.github.io/FUN2021_project19_Web-SecurityQuiz_Mainpage/"
+        alert("クイズページへ");
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Finish.js"></script>
+  
+    <div class="footer">
+      @2022 公立はこだて未来大学 暗号とセキュリティ
+    </div>
+    <div id="page_top"><a href="#">↑</a></div>
+  
+  </body>
+  
+  </html>
+  
