@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+  }
+  
+  /*#canvas {
+    width: 100%;
+    height: 100%;
+    background: #04BBD3;
+  }*/
+
+  body {
+    font-family: "Avenir Next";
+    padding-top: 80px;
+    background-color: #e6e6fa;
+  }
+
+/*ヘッダー*/
+  header {
+    top: 0px;
+    background-color: #df5252;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+  }
+
+  .header-logo {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 40px 20px 20px;
+  }
+
+/*クラス：main*/
+.main {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background-color: #e6e6fa;
+  }
+  
+  .main-title {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+  }
+  .main-description {
+    font-size: 19px;
+  }
+  
+  .main-description strong{
+    color: red;
+  }
+  
+  .main-mokuji {
+    font-size: 19px;
+    display: inline-block;
+    margin: 2em auto;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px 1px #ccc;
+  }
+  
+  .main-mokuji ul {
+    margin-left: 1rem;
+    text-indent: -1rem;
+  }
+  
+  .main-mokuji a {
+    text-decoration: none;
+  }
+  
+  .main-mokuji a:hover {
+    color: #ff0000;
+  }
+  
+  .main-sentence a {
+    text-decoration: none;
+  }
+  
+  .main-sentence a:hover {
+    color: #ff0000;
+  }
+  
+  .heading-1 {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 900;
+    color: #0000ff;
+    padding: .25em 0 .10em .75em;
+    border-left: 8px solid #008b8b;
+    border-top: 1px solid #008b8b;
+  }
+  
+  .heading-2 {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 900;
+    color: #0000ff;
+    padding: .25em 0 .10em .75em;
+    border-left: 8px solid #008b8b;
+  }
+  
+  .heading-3 {
+    font-size: 19px;
+    font-weight: 800;
+    text-decoration: underline;
+  }
+  
+  .heading-4 {
+    font-size: 19px;
+    font-weight: 800;
+  }
+  
+  .annotation {
+    font-size: 16px;
+  }
+  
+  .typeOfVirus a {
+    font-size: 23px;
+  }
+  
+  .main-sentence {
+    font-size: 19px;
+  }
+  
+  .main-securitySoftQuiz {
+    font-size: 19px;
+  }
