@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <title>暗号とセキュリティ_ウイルス感染とその対策</title>
+    <link rel="stylesheet" href="stylesheet_for_クイズ班メインページ.css">
+    <script type="text/javascript" src="quiz.js"></script>
+  </head>
+
+
+  <body>
+    <header>
+      <div class="header-logo">暗号とセキュリティ</div>
+      <nav class="header-nav">
+        <ul class="header-nav-menu">
+          <li class="header-nav-menu-item"><a href="https://ganshishi.github.io/FUN2021_project19_security_top/">暗号とセキュリティTOP</a></li>
+          <li class="header-nav-menu-item"><a href="https://funproject19web1.github.io/test/">疑似体験</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <p class="main-title">クイズページ</p><br>
+      <p class="main-description"></p>
+      <div class="main-mokuji">
+        <span class="heading-3">目次<br></span>
+        <ul>
+          <li><a href="#1">1. クイズページの目的・説明</a></li>
+
+          <li><a href="#2">2.なぜセキュリティについて学ばなければならないのか</a></li>
+          <li><a href="#3">3.クイズ1-10</a></li>
+          <li>
+            <ul>
+              <li><a href="#3-1">3-1.Q1</a></li>
+              <li><a href="#3-2">3-2.Q2</a></li>
+              <li><a href="#3-3">3-3.Q3</a></li>
+              <li><a href="#3-4">3-5.Q4</a></li>
+              <li><a href="#3-5">3-6.Q5</a></li>
+              <li><a href="#3-6">3-7.Q6</a></li>
+              <li><a href="#3-7">3-8.Q7</a></li>
+              <li><a href="#3-8">3-9.Q8</a></li>
+              <li><a href="#3-9">3-10.Q9</a></li>
+              <li><a href="#3-10">3-11.Q10</a></li>
+            </ul>
+          </li>
+          <!--<li><a href="#4">4.クイズのメッセージ</a></li>-->
+          <li><a href="#5">参考文献・サイト</a></li>
+
+        </ul>
+      </div>
+
+      <p class="main-sentence">
+        <a id="1"></a><br><br><br>
+        <span class="heading-1">1. クイズページの目的・説明</span><br><br>
+        本サイトでは、主に<strong>IPAの情報セキュリティ10大脅威</strong>を参考にしたクイズで学習でセキュリティ
+        意識向上を図ることを目的としています。これらのクイズを挑戦して自分に足りないセキュリティ
+        知識を自覚し身に付けましょう。また、クイズ解答後にアンケートを実施することで本Webページ閲覧後のセキュリティ意識の変化
+        を調査する目的があります。
+        </span>
+        <a id="2"></a><br><br><br>
+        <span class="heading-1">2.なぜセキュリティについて学ばなければならないのか</span><br><br>
+         近年、IT化が進み多くの個人や組織の情報をインターネット上で扱うようになりました。そこで、
+         個人や組織の情報を盗む犯罪が数多く行われています。これらの手口は昔からあるものから新たに生み出された
+         巧妙なものまで様々です。これらの犯罪に巻き込まれないための対策や被害を最小限にするための正しい対応を
+         身に付けるためにセキュリティについて学ぶ必要があります。そして、日々新たな手口のサイバー攻撃やインターネット
+         を利用した詐欺が生み出される特徴から定期的に自身のセキュリティ知識をアップデートする必要があります。
+         そのために、私たちはセキュリティ意識を常に高く維持する必要があります。
+         <div>
+          <img src="saiba-kougeki.jpg">
+         </div>
+
+
+
+        <a id="3"></a><br><br><br>
+        <span class="heading-1">3.クイズQ1~Q10</span><br>
+        <a id="3-1"></a><br><br><br>
+        <span class="heading-2">3-1.Q1</span><br><br>
+        <div class="question_1">
+          <p>ウェブサイト一覧中に、突然「ウイルスが見つ かりました」、「Windows のシス
+          テムが破損してい ます」等の警告が表示され指示に従いソフトウェアのインストー
+          ルやサポート窓口に連絡をしてしまい、PCの遠隔操作や有償サポート契約を結ばさ
+          れてしまった。その後の対応として間違っているものを選べ。<br><br> </p> 
+          <div class="q1_img">
+            <img src="偽警告_詐欺.png" width="300" height="200">
+           </div>
+          
+          <ul>
+            <li>
+              <label><input type="checkbox" name="q01" class="q1typeA"> 1 端末の初期化</label><br>
+              <label><input type="checkbox" name="q01" class="q1typeB"> 2 サポート契約の解消</label><br> 
+              <label><input type="checkbox" name="q01" class="q1typeC"> 3 クレジットカード会社へ連絡</label><br> 
+              <label><input type="checkbox" name="q01" class="q1typeD"> 4 何もしない</label><br>
+            </li>
+          </ul>
+          <button onclick="ans_1()">チェック</button>
+        </div>
+      
+      
+       <div class="result result1_A">
+         <u><h3>Q1 答え</h3></u>
+         <h2>正解 4 何もしない
+        </h2>
+         
+       </div>
+      
+       <div class="result result1_B">
+         <u><h3>Q1 答え</h3></u>
+         <h2>不正解</h2><br>
+         <p>   このような対応をしてしまった場合サポート契約をしても役に立たないことがほとんどです。また、
+          インストールしてしまったアプリやソフトウェアは悪影響を及ぼしている可能性があるので端末を初期化しましょう。そして、
+          警告表示のサイトで指示に従いクレジットカードなどの個人情報を入力して送信してしまった場合は速やかにクレジットカード会社へ連絡しましょう。
+          <br>予防として<br>
+          <ol>
+            <li>1. 偽警告が表示されても従わないことが重要です。</li>
+            <li>2.偽警告によって指示されるアプリやソフトウェアをインストールしない</li>
+            <li> 3.また、偽警告が出た場合すぐにブラウザを終了しましょう。</li>
+          </ol>
+          </p>
+       </div>
+      
+        <a id="3-2"></a><br><br><br>
+        <span class="heading-2">3-2.Q2</span><br><br>
+        <div class="question_2">
+          <p>不正アプリによるスマートフォン利用者への被害の予防として正しいものをすべて選べ<br><br></p>
+          <div class="q1_img">
+            <img src="スマホ_ムス.jpg" width="250" height="200">
+           </div>
+          <ul>
+            <li>
+              <label><input type="checkbox" name="q02" class="q2typeA"> 1 アプリを公式マーケットから入手する</label><br> 
+              <label><input type="checkbox" name="q02" class="q2typeB"> 2 アプリインストール時のアクセス権限の確認</label><br> 
+              <label><input type="checkbox" name="q02" class="q2typeC"> 3 アプリインストールに関する設定に注意する</label><br>
+              <label><input type="checkbox" name="q02" class="q2typeD"> 4 不要なアプリをインストールしない</label><br>
+            </li>
+          </ul>
+          <button onclick="ans_2()">チェック</button>
+        </div>
+      
+        <div class="result result2_A">
+          <u><h3>Q2 答え</h3></u>
+          <h2>正解 1,2,3,4の全て</h2>
+        </div>
+        <div class="result result2_B">
+          <u><h3>Q2 答え</h3></u>
+          <h2>不正解</h2><br>
+          <p>
+            公式サイト以外のアプリは悪意のあるプログラムが仕込まれている可能性があるので1は正しい。
+            またアプリによっては端末権限を要求してくるものがあるため不用意にアクセス権限を許可するのはやめましょう
+            -Android 端末の設定で、提供元不明のアプリのインストールを許可しない。
+            -iPhone の設定で、「信頼されていないエンタープライズデベロッパ」の表示がされるアプリを信頼しない。
+            したがって、2,3は正しい。
+            不正アプリに限らず、正規のアプリであっても使い方を誤れば意図せず重要な情報を公開してしまうこともある。
+            アプリの機能を理解し不要なアプリをインストールしない等の適切な利用を心がける必要があるので4も正しい。
+          </p>
+        </div>
+      
+        
+        <a id="3-3"></a><br><br><br>
+        <span class="heading-2">3-3.Q3</span><br><br>
+        <div class="question_3">
+          <p>あなたは自分のクレジットカードが不正利用されていることに気付きました。あなた<br>
+            はセキュリティ対策ソフトを導入しています。また、以前に不信なメールを受け取った<br>
+            りなどはしていません。クレジットカードが不正利用された原因として考えられるものを選べ。<br><br></p>
+            <div class="q1_img">
+              <img src="creditcard.png" width="250" height="200">
+             </div>
+            <ul>
+            <li>
+              <label><input type="checkbox" name="q03" class="q3typeA"> 1 ウイルス感染</label><br> 
+              <label><input type="checkbox" name="q03" class="q3typeB"> 2 フィッシング詐欺</label><br> 
+              <label><input type="checkbox" name="q03" class="q3typeC"> 3 不正アクセス</label><br> 
+              <label><input type="checkbox" name="q03" class="q3typeD"> 4 わからない</label><br>
+            </li>
+          </ul>
+          <button onclick="ans_3()">チェック</button>
+        </div>
+      
+        <div class="result result3_A">
+          <u><h3>Q3 答え</h3></u>
+          <h2>正解 3 不正アクセス</h2>
+        </div>
+        <div class="result result3_B">
+          <u><h3>Q3 答え</h3></u>
+          <h2>不正解</h2>
+          <p>
+            ウイルス感染は自身の端末にセキュリティ対策ソフトを導入しているので可能性が低い。フィッシング詐欺は、
+            公的機関や金融機関、ショッピングサイト、宅配業者等の有名企業を騙るメールや SMS（ショートメッセージ
+            サービス）を送信し、正規のウェブサイトを模倣したフィッシングサイト（偽のウェブサイ ト）へ誘導するこ
+            とで、認証情報やクレジットカード情報、個人情報を入力させ詐取する手口のため不信なメールを受け取ってい
+            ないので考えにくい。不正アクセスはショッピングサイト（EC サイト）等、インターネット上のサービスへの
+            不正アクセスや不正ログインが行われ、サービスに登録している個人情報等の重要な情報を窃取されることで
+            あり、この問題のクレジット情報を抜き取られたと考えられる。よって、正解は3 不正アクセスである。
+          </p>
+        </div>
+      
+        <a id="3-4"></a><br><br><br>
+        <span class="heading-2">3-4.Q4</span><br><br>
+        <div class="question_4">
+          <ul>
+            <li>
+              スマホ決済の不正利用の対策として3Dセキュアというものがある。3Dセキュアの間違った説明をしているものを選べ。<br><br>
+              <div class="q1_img">
+                <img src="スマホ_オンライン決済.png" width="300" height="200">
+               </div>
+              <label><input type="checkbox" name="q04" class="q4typeA"> 1 カード発行株式会社が３Dセキュアに対応していない場合利用できない</label><br> 
+              <label><input type="checkbox" name="q04" class="q4typeB"> 2 VISA、Mastercard、JCB、AMEX が推奨する本人認証サービス</label><br> 
+              <label><input type="checkbox" name="q04" class="q4typeC"> 3 無償で利用できる</label><br> 
+              <label><input type="checkbox" name="q04" class="q4typeD"> 4 全てのオンラインショップで利用できる</label><br>
+            </li>
+          </ul>
+          <button onclick="ans_4()">チェック</button>
+        </div>
+
+        <div class="result result4_A">
+          <u><h3>Q4 答え</h3></u>
+          <h2>正解 4 全てのオンラインショップで利用できる</h2>
+        </div>
+        <div class="result result4_B">
+          <u><h3>Q4 答え</h3></u>
+          <h2>不正解</h2>
+          <p>
+            ３Dセキュアとはインターネット上でクレジットカード決済をより安全に行うために、
+            VISA、Mastercard、JCB、AMEXが推奨する本人認証サービスです。各ブランド毎に名称は
+            異なりますが、総称して「3Dセキュア」と呼ばれています。<br><br>
+            「1 カード発行株式会社が３Dセキュアに対応していない場合利用できない」<br>
+            「2 VISA、Mastercard、JCB、AMEX が推奨する本人認証サービス」<br>
+            「3 無償で利用できる」<br>
+            これらの選択肢は「<a href="https://www.cardservice.co.jp/service/creditcard/3d.html"target="_blank" rel="noopener noreferrer">3Dセキュアとは</a>」より正しい。<br>
+            「4 全てのオンラインショップで利用できる」は３D セキュアが対応していないオンラインショップでは利用できないので間違い。<br>
+            よって、正解は「4 全てのオンラインショップで利用できる」<br>
+            <div class="q2_img">
+              <img src="3d-fig-02.png" width="800" height="300">
+             </div>
+             出典：https://www.cardservice.co.jp/service/creditcard/3d.html
+          </p>
+        </div>
+
+        
+        <a id="3-5"></a><br><br><br>
+        <span class="heading-2">3-5.Q5</span><br><br>
+        <div class="question_5">
+          <p>朝、あなたにメールが届きその添付ファイルを開くとパソコンが暗号化され身代金を要求されてしまった。
+          あなたがとるべき行動はどれかすべて選べ。<br><br></p>
+          <div class="q1_img">
+            <img src="wannacry_201705.jpg" width="300" height="200">
+           </div>
+          <ul>
+            <ul>
+              <label><input type="checkbox" name="q05" class="q5typeA"> 1 金を払う</label><br> 
+              <label><input type="checkbox" name="q05" class="q5typeB"> 2 つながってるLANから切断してバックアップからの復元を試みる</label><br> 
+              <label><input type="checkbox" name="q05" class="q5typeC"> 3 複合ツールを使う</label><br> 
+              <label><input type="checkbox" name="q05" class="q5typeD"> 4 攻撃者と話し合いを試みる</label><br> 
+            </ul>  
+          </ul>
+          <button onclick="ans_5()">チェック</button>
+        </div>
+        <div class="result result5_A">
+          <u><h3>Q5 答え</h3></u>
+          <h3>正解 
+            <li>2 つながってるLANから切断してバックアップからの復元を試みる</li>
+            <li>3 複合ツールを使う</li>
+          </h3>
+        </div>
+        <div class="result result5_B">
+          <u><h3>Q5 答え</h3></u>
+          <h2>不正解</h2>
+          <p>
+            ランサムウェアの攻撃元にお金を払うと活動資金となってしまうため推奨されていない。
+            また金を払ってもデータが戻ってくる保障はない。またランサムウェアに感染した場合その
+            パソコンから別のパソコンに感染が広まってしまう場合がある。複合ツールに関して感染した
+            ランサムウェアの種類を特定した場合に「No More Ransom」プロジェクトのWebサイトで公開
+            されていないか確認してみてください。公開されている場合は複合ツールをもちいてランサムウェア
+            によって暗号化されたデータを元に戻すことが出来ます。攻撃者と話し合いを試みた場合その会話が
+            外部にさらされたりそもそも応じてもらえない可能性がある。もし感染してしまった場合は警察や
+            外部の専門機関に相談しよう。<br>
+            参考サイト<br>
+            <a href="https://www.npa.go.jp/cyber/ransom/index.html" target="_blank" rel="noopener noreferrer">ランサムウェア被害防止対策 - 警察庁</a><br>
+            <a href="https://www.nomoreransom.org/ja/index.html" target="_blank" rel="noopener noreferrer">「No More Ransom」プロジェクトのWebサイト</a><br>
+          </p>
+        </div>
+
+
+        <a id="3-6"></a><br><br><br>
+        <span class="heading-2">3-6.Q6</span><br><br>
+        <div class="question_6">
+          <p>あなたがsnsに顔写真を投稿したところ誹謗する言葉が届いた。あなたがとるべき行動はどれか。<br><br></p>
+          <div class="q1_img">
+            <img src="net_ijime_man.png" width="300" height="200">
+           </div>
+          <ul>
+            <li>
+              <label><input type="checkbox" name="q06" class="q6typeA"> 1 無視する</label><br> 
+              <label><input type="checkbox" name="q06" class="q6typeB"> 2 写真を削除する</label><br> 
+              <label><input type="checkbox" name="q06" class="q6typeC"> 3 反論する</label><br> 
+              <label><input type="checkbox" name="q06" class="q6typeD"> 4 一人で抱え込む</label><br>
+            </li>
+          </ul>
+          <button onclick="ans_6()">チェック</button>
+        </div>
+
+        <div class="result result6_A">
+          <u><h3>Q6 答え</h3></u>
+          <h2>正解 2</h2>
+        </div>
+        <div class="result result6_B">
+          <u><h3>Q6 答え</h3></u>
+          <h2>不正解</h2>
+          <p>
+            「1 無視する」、「3 反論する」は誹謗中傷がエスカレートするおそれがあるので間違い。<br>
+            「4 一人で抱え込む」は問題解決に繋がらず冷静な判断が出来ない恐れもあるので一人で抱え
+            込まず信頼できる知人や公的な相談機関等に相談すべきであるので間違い。「2 写真を削除する」
+            は誹謗中傷の原因と考えられる顔写真を削除することで誹謗中傷の拡大を抑えることに繋がるので正解。
+          </p>
+          <div class="q1_img">
+            <img src="computer_delete_buttn_osu.png" width="300" height="200">
+           </div>
+        </div>
+
+
+        <a id="3-7"></a><br><br><br>
+        <span class="heading-2">3-7.Q7</span><br><br>
+        <div class="question_7">
+          <a>オンラインショッピングサイトで買い物しようとした際、あなたに身に覚えがない買い物でアカウントにチャージしたお金を使われていた
+          ことがわかった。この時の対策をすべて選べ。<br><br></a>
+          <div class="q1_img">
+            <img src="ネットショッピング.png" width="300" height="200">
+           </div>
+          <ul>
+            <li>
+              <label><input type="checkbox" name="q07" class="q7typeA"> 1 パスワード管理ソフトの利用</label><br> 
+              <label><input type="checkbox" name="q07" class="q7typeB"> 2 フィッシング詐欺に注意する</label><br> 
+              <label><input type="checkbox" name="q07" class="q7typeC"> 3 スマートフォンの紛失対策をする</label><br> 
+              <label><input type="checkbox" name="q07" class="q7typeD"> 4 パスワードを複雑なものに変更する</label><br> 
+            </li>
+          </ul>
+          <button onclick="ans_7()">チェック</button>
+        </div>
+
+        <div class="result result7_A">
+          <u><h3>Q7 答え</h3></u>
+          <h2>正解 1,2,3,4の全て</h2>
+        </div>
+        <div class="result result7_B">
+          <u><h3>Q7 答え</h3></u>
+          <h2>不正解</h2>
+          <p>
+            アカウントのパスワードを長く複雑なものにすることで不正アクセスを予防することに繫がり、パスワード管理ソフト
+            を利用することで安全にパスワードを管理することが出来ます。また、スマホ決済を行っている企業を驕るフィッシング
+            サイトやメールで情報を盗み出す犯罪に注意する必要があります。また、スマートフォンの紛失から不正に利用される可能性
+            もあるので紛失対策も必要です。
+          </p>
+        </div>
+
+        <a id="3-8"></a><br><br><br>
+        <span class="heading-2">3-8.Q8</span><br><br>
+        <div class="question_8">
+          <a>あなたはメールで身に覚えのない商品の注文確認メールを受け取りました。その時の正しい行動を選べ。<br><br></a>
+          <div class="q1_img">
+            <img src="computer_email_fake.png" width="300" height="200">
+           </div>
+          <ul>
+            <li>
+              <label><input type="checkbox" name="q08" class="q8typeA"> 1 お金を支払う</label><br> 
+              <label><input type="checkbox" name="q08" class="q8typeB"> 2 添付されているurlにアクセスしてみる</label><br> 
+              <label><input type="checkbox" name="q08" class="q8typeC"> 3 無視する</label><br> 
+              <label><input type="checkbox" name="q08" class="q8typeD"> 4 悪ふざけで返信する</label><br>
+            </li>
+          </ul>
+          <button onclick="ans_8()">チェック</button>
+        </div>
+
+        <div class="result result8_A">
+          <u><h3>Q8 答え</h3></u>
+          <h2>正解 3</h2>
+        </div>
+        <div class="result result8_B">
+          <u><h3>Q8 答え</h3></u>
+          <h2>不正解</h2>
+          <p>
+            お金を支払ってしまうと商品は届かずお金も戻ってこない可能性が高いので支払うのは止めましょう。また、
+            身に覚えのないメールに添付されているurlやファイルをクリックするだけでウイルス感染やフィッシング詐欺
+            サイトに誘導されるなどのリスクを被るだけなのでやめましょう。悪ふざけでメールの返信をすると詐欺の標的
+            になる危険もあるのでこのようなメールを受信した際は無視をしましょう。  
+          </p>
+        </div>
+      
+        <a id="3-9"></a><br><br><br>
+        <span class="heading-2">3-9.Q9</span><br><br>
+        <div class="question_9">
+          <p>実在する金融機関等を装ったメールや SMS からフィッシングサイト（偽のウェブサイト）へと誘導さ れ、偽物であると
+          気付かずに入力してしまい、攻撃者に認証情報を詐取（フィッシング詐欺）される。また、メールに添付された悪意ある
+          ファイルを開いて、 端末をウイルスに感染させてしまい、攻撃者に認証情報を窃取される等の被害も発生している。これらの
+          予防として間違っているものを選べ。<br><br></p>
+          <div class="q1_img">
+            <img src="kojinjouhou_rouei_businessman.png" width="300" height="200">
+           </div>
+          <ul>
+            <li>
+              <label><input type="checkbox" name="q09" class="q9typeA"> 1 受信メールやウェブサイトの十分な確認</label><br> 
+              <label><input type="checkbox" name="q09" class="q9typeB"> 2 添付ファイルやURLをクリックする</label><br> 
+              <label><input type="checkbox" name="q09" class="q9typeC"> 3 普段は表示されないポップアップ画面に個人情報を入力しない</label><br> 
+              <label><input type="checkbox" name="q09" class="q9typeD"> 4 金融機関や公的機関から公開されている注意喚起を確認する</label><br>
+            </li>
+           </ul>
+           <button onclick="ans_9()">チェック</button>
+        </div>
+
+        <div class="result result9_A">
+          <u><h3>Q9 答え</h3></u>
+          <h2>正解 2</h2>
+        </div>
+        <div class="result result9_B">
+          <u><h3>Q9 答え</h3></u>
+          <h2>不正解</h2>
+          <p>
+            「1.不信メールやウェブサイトの十分な確認」は詐欺メールやウェブサイトでは文章やデザインに違和感が見られるので
+            詐欺に気付くことが出来ます（注：現在は詐欺の手口が巧妙になり判別が難しくなってきている）。「3．普段は表示され
+            ないポップアップ画面に個人情報を入力しない」はフィッシング詐欺の予防に有効です。「4 金融機関や公的機関から公開
+            されている注意喚起を確認する」は新しく生み出された巧妙な詐欺の手口などの注意喚起が行われるので確認して被害に合
+            わないように注意しましょう。最後に、「2 添付ファイルやURLをクリックする」はランサムウェアなどのウイルスに感染する
+            リスクを高める行為なので間違いです。
+          </p>
+        </div>
+      
+        <a id="3-10"></a><br><br><br>
+        <span class="heading-2">3-10.Q10</span><br><br>
+        <div class="question_10">
+          <a>会員登録したサイトからの情報漏洩対策として事前にできることを選べ。<br><br></a>
+          <div class="q1_img">
+            <img src="会員登録に記入する猫のイラスト.png" width="300" height="200">
+           </div>
+          <ul>
+            <li>
+          <label><input type="checkbox" name="q10" class="q10typeA"> 1 必要以上の情報を登録しない</label><br> 
+          <label><input type="checkbox" name="q10" class="q10typeB"> 2 パスワードを変更する</label><br> 
+          <label><input type="checkbox" name="q10" class="q10typeC"> 3 多要素認証をする。</label><br> 
+          <label><input type="checkbox" name="q10" class="q10typeD"> 4 いつもと異なるログインがあった場合に通知する設定を有効にする</label><br>
+          </li>
+        </ul>
+        <button onclick="ans_10()">チェック</button>
+        </div>
+        <div class="result result10_A">
+          <u><h3>Q10 答え</h3></u>
+          <h2>正解 1,3</h2>
+        </div>
+        <div class="result result10_B">
+          <u><h3>Q10 答え</h3></u>
+          <h2>不正解</h2>
+          <p>
+            会員登録した際に事前にできる予防としては必要以上の情報を登録しないことで漏洩した際の
+            被害を減らすことが出来ます。また、多要素認証をすることでより強固なセキュリティにするパスワードを使いまわさないなどがあります。
+            そして、会員登録したサイトが情報漏洩してしまった場合の対応としてすぐにパスワードを変更し情報漏洩したサイトのカスタマーサポ
+            ートに連絡しましょう。<br>
+            「4 いつもと異なるログインがあった場合に通知する設定を有効にする」は今回の場合はアカウントにログインせずに運営サイトから情報を
+            盗まれるので対策にはならない。
+          </p>
+        </div>
+
+      </div>
+      <!--
+        <a id="4"></a><br><br><br>
+        <span class="heading-2">クイズメッセージ</span><br><br>
+          <div id="tennsuu">
+            <p>
+              <label>点数：<input type="text" id="gread"></label>
+              <input type="button" value="Check" id="checkButton">
+              </p>
+              
+              <p id="msg"></p>
+            <div id="sampleArea"> </div>
+      
+            
+            <script type="text/javascript">
+            //クイズメッセージのメッセージ   
+            function message_1(){
+              var sampleArea = document.getElementById("sampleArea");
+              sampleArea.innerHTML = "perfect";
+            }
+
+            function message_2(){
+              var sampleArea = document.getElementById("sampleArea");
+              sampleArea.innerHTML = "great";
+            }
+
+            function message_3(){
+              var sampleArea = document.getElementById("sampleArea");
+              sampleArea.innerHTML = "good";
+            }
+            function message_4(){
+              var sampleArea = document.getElementById("sampleArea");
+              sampleArea.innerHTML = "bad";
+            }
+            /*クイズ正答率チェック*/
+            function Check() {
+
+              if (gread.value >= 10){
+                message_1();
+              }else if (gread.value > 6){
+                message_2();
+              }else if(gread.value >4 ){
+                message_3();
+              }else{
+                message_4()
+              };
+              sampleArea.innerHTML =result1 ;
+              
+            }
+            let checkButton = document.getElementById('checkButton');
+            checkButton.addEventListener('click', Check);
+            </script>  
+        -->
+        
+          </div>
+        
+        <a id="5"></a><br><br><br>
+        <span class="heading-2">参考文献・サイト</span><br><br>
+           ・<a href="https://www.ipa.go.jp/files/000096258.pdf">情報セキュリティ10大脅威 2022</a><br>
+           ・<a href="https://www.cardservice.co.jp/service/creditcard/3d.html"target="_blank" rel="noopener noreferrer">3Dセキュアとは</a><br>
+           ・<a href="https://www.npa.go.jp/cyber/ransom/index.html" target="_blank" rel="noopener noreferrer">ランサムウェア被害防止対策 - 警察庁</a><br>
+           ・<a href="https://www.nomoreransom.org/ja/index.html" target="_blank" rel="noopener noreferrer">「No More Ransom」プロジェクトのWebサイト</a><br>
+           ・<a href="https://www.jpcert.or.jp/magazine/security/ransom-faq.html#q2-1">侵入型ランサムウェア攻撃を受けたら読むFAQ</a><br>
+           <br><br>
+    </div>
+
+    <div class="move" align="center">
+      <p><a href="#">ページトップに移動する</a></p>
+    </div>
+
+    <div class="footer">
+      @2022  公立はこだて未来大学 暗号とセキュリティ<br>
+    
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+    <script src="quiz.js"></script>
+    
+  </body>
+</html>
