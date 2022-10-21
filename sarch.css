@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+  
+    padding: 0px 0px 0px 0px;
+  } 
+  .center{
+    padding: 0px 0px 0px 10%;
+  }
+  .main{
+    padding: 0px 0px 0px 10%;
+  }
+  .a_font{
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+  } 
+.sarch_word {
+    text-align: center
+    margin: 10px 10px 10px 20px;
+    border: 3px double #ddd;
+    padding: 2px;
+    box-sizing: border-box;
+}
