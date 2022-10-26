@@ -1395,7 +1395,10 @@ header {
   box-sizing: inherit;
 }
 
-html {
+.stbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 62.5%;/*rem算出をしやすくするために*/
