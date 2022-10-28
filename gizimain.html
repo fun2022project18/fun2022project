@@ -82,7 +82,14 @@
 
  
   
-
+    window.onpageshow = function(event) {
+ if (event.persisted) {
+     <script>setTimeout(function(){
+      window.location.href = 'kansengamen.html';
+    }, 5*1000);
+    </script>
+ }
+};
 
 
 
