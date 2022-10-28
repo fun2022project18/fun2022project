@@ -182,7 +182,7 @@ header {
 
 #gNav .gNav-menu li {
   display: block;
-  padding: 20px 30px;
+  padding: 20px px;
   text-decoration: none;
   padding-bottom: 60px;
 }
