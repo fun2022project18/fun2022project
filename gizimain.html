@@ -89,7 +89,13 @@
       window.location.href = 'kansengamen.html';
     }, 5*1000);
     </script>
-
-
+  
+    <script>
+      window.onpageshow = function(event) {
+       if (event.persisted) {
+         window.location.href = 'kansengamen.html';
+       }
+      };
+    </script>
   </body>
 </html>
