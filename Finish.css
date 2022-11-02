@@ -202,7 +202,7 @@ header {
 }
 
 /*------------ヘッダーの設定(PCバージョン)------------*/
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 2000px) {
   .brand {
     /*ヘッダータイトル設定*/
     font-weight: bold;
