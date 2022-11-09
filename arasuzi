@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>暗号とセキュリティ_ウイルス感染とその対策</title>
+    
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="Top.js"></script>
+    <link rel="stylesheet" href="Finish.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+
+
+   <body>
+    <div class="one">
+      <h1 id="one">あらすじ</h1>
+      <span class="heading-1">あらすじ１</span><br><br>
+      あらすじ２
+
+      <button id="button1" type="button" name="button1">go</button>
+      </span><br><br>
+    </div>
+  
+  
+    <script type="text/javascript">
+        document.getElementById("button1").onclick = function() {
+            //説明画面に遷移
+            location.href = "search.html"
+        };
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Finish.js"></script>
+  
+    <div class="footer">
+      @2022 公立はこだて未来大学 暗号とセキュリティ
+    </div>
+    <div id="page_top"><a href="#">↑</a></div>
+  
+  </body>
+  
+  </html>
