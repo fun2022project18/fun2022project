@@ -11,7 +11,7 @@ html, body {
     /* background: rgba(0, 0, 0, 0.1); */
   }
 
-  #button1 {
+  .btn {
     background-color: #d7ec7a00;
     padding-bottom: 30px;
     text-align: center;
