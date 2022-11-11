@@ -1447,3 +1447,8 @@ a.btn--radius {
   top: calc(50% - .5em);
   right: 1rem;
 }
+
+.img_s{
+  max-width: 100%;
+  height:auto;
+}
