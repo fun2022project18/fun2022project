@@ -244,7 +244,7 @@ function ans_10(){
       return;
     }
 
-    if(q1typeBNum == false && q1typeANum == true && q1typeCNum == true && q1typeDNum ==false) {
+    if(q1typeBNum == false && q1typeANum == true && q1typeCNum == true && q1typeDNum == true) {
       $(".result10_A").fadeIn();
       $(".button_resultA").fadeIn();
       point++;
